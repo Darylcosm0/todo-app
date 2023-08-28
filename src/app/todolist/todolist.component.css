@@ -1,12 +1,88 @@
 h1 {
-    text-align: center;
-    font-size: 2rem;
+  text-align: center;
+  font-size: 2rem;
 }
 
 #submitButton {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #myCheckbox {
-    margin-left: 30px;
+  margin-left: 30px;
+}
+
+/* ui of the task app */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #6c5ce7; /* Purplish color */
+}
+
+hr {
+  margin: 20px 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #6c5ce7; /* Purplish color */
+}
+
+#task {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+#errorMessage {
+  display: none;
+}
+
+#submitButton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #6000df; /* Purplish color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submitButton:disabled {
+  background-color: #02ce13;
+  cursor: not-allowed;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #110101;
+  padding: 8px;
+  text-align: center;
+}
+
+#myCheckbox {
+  margin-left: 10px;
+}
+
+.btn-danger {
+  background-color: #f10000;
+  border: none;
+  color: #fff;
 }
